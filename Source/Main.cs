@@ -67,7 +67,7 @@ namespace ApparelX
 				var f_cachedTradeables = Traverse.Create(__instance).Field("cachedTradeables");
 				f_cachedTradeables.GetValue<List<Tradeable>>().Do(item =>
 				{
-					var amountToSell = item.GetMinimum();
+					var amountToSell = item.GetMinimumToTransfer();
 					if (ApparelXMain.Filter(item) && amountToSell < 0)
 						item.AdjustTo(amountToSell);
 				});

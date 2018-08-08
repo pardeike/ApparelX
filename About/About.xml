@@ -2,7 +2,7 @@
 <ModMetaData>
 	<name>ApparelX</name>
 	<author>Andreas Pardeike</author>
-	<targetVersion>0.17.0</targetVersion>
+	<targetVersion>1.0.0</targetVersion>
 	<description>Get rid of deadmans apparel quick. Adds a checkbox to trade dialogs that shows only apparel worn by a corpse.
 
 Powered by Harmony Patch Library
